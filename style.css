@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px 0px 33px 0px;
+
+    width: 100vw;
+}
+
+main {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 68px;
+
+    width: 100vw;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 90px;
+
+    height:30px;
+    width: 100vw;
+}
+
+footer {
+    width: 100vw;
+    height: 100px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+}
+
+#content-header {
+    width: 100vw;
+    height: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*justify-content: start;*/
+}
+
+#profile-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 300px;
+    margin-bottom: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#image {
+    width: 200px;
+    height: 200px;
+    border-radius: 300px;
+    border: solid 2px #BB99DD;
+    padding: 7px;
+}
+
+#profile-nick {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 24px; 
+}
+
+#nick {
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 300;
+    font-style: normal;
+    color: #BB99DD;
+}
+
+#main-content {
+    width: 100vw;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main-links {
+    width: 326px;
+    height: 49px;
+    border: 2px solid #BB99DD;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-text {
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 600;
+    font-style:normal;
+    text-transform: uppercase;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+    color: #BB99DD;
+}
+
+#aside-content {
+    width: 236px;
+    height: 24px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.social-network {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-icon {
+    color: #BB99DD;
+
+}
+
+#footer-content {
+    margin-bottom: 3px;
+    font-family: 'Poppins';
+    font-size: 12px;
+    font-weight: 300;
+    font-style: normal;
+    color: rgb(19, 18, 18);
+}
