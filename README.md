@@ -1,2 +1,4 @@
 # DesafioRocketseatSocialTree
-Desafio Rocketseat 'Social Tree' desktop version 
+Desafio Rocketseat Social Tree
+
+ * Este repositório é o desafio de prática 'Social Tree' da Rocketseat
